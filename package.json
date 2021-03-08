@@ -15,6 +15,9 @@
     "react-scripts": "3.4.3",
     "react-twitter-embed": "^3.0.3"
   },
+  "engines": {
+    "node": "10"
+},
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
