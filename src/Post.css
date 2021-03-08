@@ -3,12 +3,14 @@
     align-items: flex-start;
     border-bottom: 1px solid var(--twitter-background);
     padding-bottom: 10px;
+    margin-right: 20px;
 
 }
 
 .post_body {
     flex: 1;
     padding: 10px;
+    
 }
 
 .post__body > img {
@@ -19,7 +21,7 @@
 .post__footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;   
+    margin-top: 10px;
 }
 
 .post__badge {

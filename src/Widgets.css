@@ -1,5 +1,5 @@
 .widgets {
-    flex: 0.3;
+    flex: 3;
 }
 
 .widgets__input {
@@ -25,11 +25,17 @@
     margin-top: 15px;
     margin-left: 20px;
     padding: 20px;
-    background-color: #f5f8fa;
+    background-color: var(--twitter-background);
     border-radius: 20px;
+    align-content: center;
 }
 
 .widgets__widgetContainer > h2 {
     font-size: 18px;
     font-weight: 800;
+}
+
+.widgets__tweetButton {
+    margin-top: 10px;
+    text-align: center;
 }

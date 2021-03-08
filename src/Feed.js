@@ -19,7 +19,7 @@ function Feed() {
         <div className="feed">
             {/* Header */}
             <div className="feed_header">
-                <h2> Home</h2>
+                <h2 id="home"> Home</h2>
             </div>
 
             {/* TweetBox */}
@@ -40,22 +40,6 @@ function Feed() {
 
             ))}
             </FlipMove>
-
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
-            {/* Post */}
     
         </div>
     )

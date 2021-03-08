@@ -19,19 +19,23 @@ function Widgets() {
             <div className="widgets__widgetContainer">
                 <h2>What's happening</h2>
             
-                <TwitterTweetEmbed tweetId={"1295163407939837952"} />
-                <TwitterTweetEmbed tweetId={"1294382104307007492"} />
+                {/* <TwitterTweetEmbed tweetId={"1295163407939837952"} /> */}
+                <TwitterTweetEmbed 
+                    tweetId={"1294382104307007492"}
+                 />
 
                 <TwitterTimelineEmbed
                     sourceType="profile"
                     screenName="DevRio11"
-                    options={{height: 400}}
+                    options={{height: 250}}
                 />
-
-                <TwitterShareButton
+                <div className="widgets__tweetButton">
+                <TwitterShareButton 
                     url={"https://andresdelrio.dev/"}
                     options={{text: "Check out Andres Portfolio!", via: "DevRio11"}}
                 />
+                </div>
+                
             </div>
 
         </div>
