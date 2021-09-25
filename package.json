@@ -13,7 +13,15 @@
     "react-dom": "^16.13.1",
     "react-flip-move": "^3.0.4",
     "react-scripts": "3.4.3",
-    "react-twitter-embed": "^3.0.3"
+    "react-twitter-embed": "^3.0.3",
+    "ansi-regex": ">=5.0.1",
+    "@firebase/util": ">=0.3.4",
+    "json-bigint": ">=1.0.0",
+    "@grpc/grpc-js": ">=1.1.8",
+    "lodash": ">=4.17.21",
+    "date-and-time": ">=0.14.2",
+    "node-forge": ">=0.10.0",
+    "node-fetch": ">=2.6.1"
   },
   "engines": {
     "node": "10"
