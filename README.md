@@ -1,3 +1,5 @@
+![alt text](https://firebasestorage.googleapis.com/v0/b/portfolio-svelte-3d3e0.appspot.com/o/GitHub%20Storage%2Ftwitter-clone%2Ftwitter-clone-1.jpg?alt=media&token=7a41d5c8-12f2-4b82-bb02-edd00fb5e4d7)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
